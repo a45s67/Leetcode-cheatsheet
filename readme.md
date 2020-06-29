@@ -16,11 +16,11 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 ## Important libraries :
 - [re](https://docs.python.org/3/library/re.html#module-re)
   - split():  
-  The differences w/wo parthesis:  
-  ```python
-  print(re.split(r'(\(.*\))', 'abc(>_<)')) #['abc', '(>_<)', '']
-  print(re.split(r'\(.*\)', 'abc(>_<)')) #['abc', '']
-  ```
+    The differences w/wo parenthesis:  
+    ```python
+    print(re.split(r'(\(.*\))', 'abc(>_<)')) #['abc', '(>_<)', '']
+    print(re.split(r'\(.*\)', 'abc(>_<)')) #['abc', '']
+    ```
   
 - [collections](https://docs.python.org/zh-tw/3/library/collections.html#module-collections)
   - [defaultdict](https://docs.python.org/zh-tw/3/library/collections.html#collections.defaultdict) : `d = defaultdict(list)`

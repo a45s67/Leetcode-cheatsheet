@@ -14,7 +14,7 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 # python
 
 ## Important libraries :
-- collection
+- [collections](https://docs.python.org/zh-tw/3/library/collections.html#module-collections)
   - [defaultdict](https://docs.python.org/zh-tw/3/library/collections.html#collections.defaultdict) : `d = defaultdict(list)`
 
 

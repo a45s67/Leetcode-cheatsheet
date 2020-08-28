@@ -7,6 +7,7 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 
 # C++
 
+- [lambda function](https://en.cppreference.com/w/cpp/language/lambda)
 
 
 
@@ -53,3 +54,8 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 
 - [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/discuss/708112/JavaC%2B%2BPython-Sliding-Window-at-most-one-0) 
 we don't need to mantain the last pos of 0 and do max() in each loop. Shrinking the size of j-i is not necessary.
+
+- [1029. Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)  
+  We can solve this question in two different perspective. 
+  - 1. Sort by cost diff first, then set users. It's because the less cost diff means less influence to the sum cost.
+  - 2. Or we can arrange all people to the city A first and compute the sum cost. Then pick half of the people which have more refund and return ' sum - refund of half of the people'

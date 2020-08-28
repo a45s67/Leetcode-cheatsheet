@@ -35,19 +35,18 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
   Let's observe the value in dp ( dp[i] represents number of the ways to amount i)  
   Ex: amount=3, coins = [1,2]
 
-  outer loop:
-    ```
-    [1,0,0,0] - no coin
-    [1,1,0,0] - 1
-    [1,1,1,1] - 2
-    ```
-  inner loop:
-    ```
-    [1,0,0,0] - amount=0
-    [1,1,0,0] - amount=1 ( coin=1 meets the condition)
-    [1,1,2,0] - 2 ( 0+2,1+1)
-    [1,1,2,3] - 3 ( 1+2,2+1) --> This considers all combination of 3  ((1+2),((1+1+1,2+1))) (double count)
-    ```
+  iterate coins first:
+
+      [1,0,0,0] - start
+      [1,1,0,0] - coin = 1
+      [1,1,1,1] - coin = 2
+
+  iterate amounts first:
+
+      [1,0,0,0] - start
+      [1,1,0,0] - amount=1 ( coin=1 meets the condition)
+      [1,1,2,0] - 2 ( amount 0 + coin 2 , amount 1 + coin 1)
+      [1,1,2,3] - 3 ( amount 1 + coin 2 , amount 2 + coin 1) --> This considers all combination of 3  ((1+2),((1+1+1,2+1))), which causes double count in this question.
 
 
 # Mind blowing solutions

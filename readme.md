@@ -29,7 +29,7 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 
 
 
-# Some logic mistakes I may make
+# Some logical mistakes I may make
 
 - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/discuss/176706/Beginner-Mistake%3A-Why-an-inner-loop-for-coins-doensn't-work-Java-Soln)
   The difference between iterating coins at inner loop and outer loop:  
@@ -51,6 +51,9 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 
 
 # Mind blowing solutions
+- [835. Image Overlap](https://leetcode.com/problems/image-overlap/discuss/130623/C%2B%2BJavaPython-Straight-Forward)  
+Instead of brute force solutions, we can make the use of sparsity to reduce complexity.
+
 
 - [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/discuss/708112/JavaC%2B%2BPython-Sliding-Window-at-most-one-0) 
 we don't need to mantain the last pos of 0 and do max() in each loop. Shrinking the size of j-i is not necessary.

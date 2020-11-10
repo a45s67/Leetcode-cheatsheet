@@ -15,6 +15,9 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 List<int[]> p1 = new ArrayList<int[]>();
 p1.add(new int[]{a,b,c});
 ```
+```c++
+vector<vector<int>> C(2*M, vector<int>(2*N, 0));
+```
 
 - loop STL container by reference  
 ```c++

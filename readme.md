@@ -33,6 +33,10 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
   collections.Counter((a, b) for a in A for b in B)
   ```
 
+## Some impressive syntatic trick example
+``` python
+return ans or [0]  # avoid None
+```
 
 
 # Some logical mistakes I may make

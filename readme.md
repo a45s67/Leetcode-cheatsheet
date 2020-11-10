@@ -24,8 +24,14 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
     ```
   
 - [collections](https://docs.python.org/zh-tw/3/library/collections.html#module-collections)
-  - [defaultdict](https://docs.python.org/zh-tw/3/library/collections.html#collections.defaultdict) : `d = defaultdict(list)`
-
+  - [defaultdict](https://docs.python.org/zh-tw/3/library/collections.html#collections.defaultdict) :  
+  ```python
+  d = defaultdict(list)
+  ```
+  - [Counter](https://docs.python.org/zh-tw/3/library/collections.html#collections.Counter) :  
+  ```python
+  collections.Counter((a, b) for a in A for b in B)
+  ```
 
 
 

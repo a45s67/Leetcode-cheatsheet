@@ -9,7 +9,20 @@ This is writen to help me recoginize some syntax and concept when I brush leetco
 
 - [lambda function](https://en.cppreference.com/w/cpp/language/lambda)
 
+## syntactic tricks
+- STL & Array related
+```c++
+List<int[]> p1 = new ArrayList<int[]>();
+p1.add(new int[]{a,b,c});
+```
 
+- loop STL container by reference  
+```c++
+std::unordered_map<std::string,std::string> mymap;
+for (auto& x: mymap) {
+  std::cout << x.first << ": " << x.second << std::endl;
+}
+```
 
 
 # python

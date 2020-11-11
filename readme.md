@@ -88,3 +88,6 @@ we don't need to mantain the last pos of 0 and do max() in each loop. Shrinking 
   We can solve this question in two different perspective. 
   - 1. Sort by cost diff first, then set users. It's because the less cost diff means less influence to the sum cost.
   - 2. Or we can arrange all people to the city A first and compute the sum cost. Then pick half of the people which have more refund and return ` sum - refund of half of the people`
+
+- [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/)  
+  Fucking awesome...

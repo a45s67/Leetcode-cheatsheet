@@ -47,6 +47,7 @@ for (auto& x: mymap) {
   - [Counter](https://docs.python.org/zh-tw/3/library/collections.html#collections.Counter) :  
   ```python
   collections.Counter((a, b) for a in A for b in B)
+  Counter( map(lambda x:0 ,combinations([1,2,3,4],2)))
   ```
 
 ## Some impressive syntatic trick example

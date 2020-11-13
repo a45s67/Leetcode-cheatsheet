@@ -97,5 +97,5 @@ we don't need to mantain the last pos of 0 and do max() in each loop. Shrinking 
   From the prove we can find :  **There must be a minimun number of resolution that has no duplicate Fibonacci number.**    
   So now we ssume ` k = f[x] + f[x-2] + f[x-]...` and `f[2n]` is the largest that `f[2n] <= k`.  
   If  `f[x] is not f[2n]`, then `f[x] + f[x-2] + f[x-]...` will smaller than `f[2n]-1`   
-  which cause `k = f[x] + f[x-2] + f[x-]... <= f[2n]-1 < k `- **contraction!!**
+  which cause `k = f[x] + f[x-2] + f[x-]... <= f[2n]-1 < k `- **contradiction!!**
     

@@ -95,7 +95,7 @@ we don't need to mantain the last pos of 0 and do max() in each loop. Shrinking 
   
 - [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/discuss/585632/JavaC%2B%2BPython-Easy-Prove)  
   From the prove we can find :  **There must be a minimun number of resolution that has no duplicate Fibonacci number.**    
-  So now we ssume ` k = f[x] + f[x-2] + f[x-]...` and `f[2n]` is the largest that `f[2n] <= k`.  
+  So we can assume ` k = f[x] + f[x-2] + f[x-]...` and `f[2n]` is the largest that `f[2n] <= k`.  
   If  `f[x] is not f[2n]`, then `f[x] + f[x-2] + f[x-]...` will smaller than `f[2n]-1`   
   which cause `k = f[x] + f[x-2] + f[x-]... <= f[2n]-1 < k `- **contradiction!!**
     

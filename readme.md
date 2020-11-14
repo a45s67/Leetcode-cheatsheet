@@ -56,7 +56,11 @@ return ans or [0]  # avoid None
 ```
 
 
-# Some logical mistakes I may make
+
+# Algorithms
+
+
+### Some logical mistakes I may make
 
 - [518. Coin Change 2](https://leetcode.com/problems/coin-change-2/discuss/176706/Beginner-Mistake%3A-Why-an-inner-loop-for-coins-doensn't-work-Java-Soln)
   The difference between iterating coins at inner loop and outer loop:  
@@ -77,7 +81,13 @@ return ans or [0]  # avoid None
       [1,1,2,3] - 3 ( amount 1 + coin 2 , amount 2 + coin 1) --> This considers all combination of 3  ((1+2),((1+1+1,2+1))), which causes double count in this question.
 
 
-# Mind blowing solutions
+### Good to warm up
+
+- [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/discuss/?currentPage=1&orderBy=most_votes&query=)  
+  BFS, DFS practice.
+
+
+### Mind blowing solutions
 - [835. Image Overlap](https://leetcode.com/problems/image-overlap/discuss/130623/C%2B%2BJavaPython-Straight-Forward)  
 Instead of brute force solutions, we can make the use of sparsity to reduce complexity.
 
